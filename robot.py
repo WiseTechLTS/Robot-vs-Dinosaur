@@ -1,5 +1,7 @@
 from weapon import Weapon
 
+weapon = Weapon('Weapon', 33)
+
 class Robot:
     def __init__(self, name):
         self.name = ""
@@ -10,5 +12,5 @@ class Robot:
         self.name = "Robot"
     
     def attack(self,dinosaur):
-        pass
-    
+        
+        
