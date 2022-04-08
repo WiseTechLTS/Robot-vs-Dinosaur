@@ -1,8 +1,6 @@
 from battlefield import Battlefield
 
-battlefield = Battlefield('Battlefield',33)
-
-
+battlefield = Battlefield()
 
 # (5 points): As a developer, I want to make at least 7 commits with good, descriptive messages.
 # (5 points): As a developer, I want to make a class for each of the following: Robot, Dinosaur, Weapon, Battlefield.
