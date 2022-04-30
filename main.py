@@ -1,17 +1,12 @@
 from battlefield import Battlefield
+from robot import Robot
+from dinosaur import Dinosaur
 
-battlefield = Battlefield
+robot = Robot
+dinosaur = Dinosaur
+fight = Battlefield
 
-class Robot(Battlefield):
-    def __init__(self):
-
-class Dinosaur(Battlefield):
-    def __init__(self):
-
-        
-
-
-
+fight.run_game(fight)
 # (5 points): As a developer, I want to make at least 7 commits with good, descriptive messages.
 # Done
 # (5 points): As a developer, I want to make a class for each of the following: Robot, Dinosaur, Weapon, Battlefield.

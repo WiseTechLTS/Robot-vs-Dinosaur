@@ -1,0 +1,6 @@
+{
+    "files.autoSave": "onFocusChange",
+    "editor.renderWhitespace": "none",
+    "editor.insertSpaces": false,
+    "editor.wordWrap": "wordWrapColumn"
+}

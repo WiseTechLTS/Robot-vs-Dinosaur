@@ -1,48 +1,27 @@
 from robot import Robot
 from dinosaur import Dinosaur
 
-robot = Robot("Robot", 150, 65)
-robot.attack()
-dinosaur = Dinosaur("Dinosaur", 150, 45)
-dinosaur.attack()
-
 class Battlefield:
     def __init__(self):
-        self.robot = Robot
-        self.dinosaur = Dinosaur 
-    def __init__(robot):
-        super().__init__()
-    def __init__(dinosaur):
-        super().__init__()
-
+        self.robot = Robot("Robot", 55)
+        self.dinosaur = Dinosaur("Dinosaur", 45)
 
     def run_game(self):
-        self.display_welcome = ()
-        self.battle_phase = ()
-        self.display_winner = ()
-        
+        self.display_welcome()
+        self.battle_phase()
+        self.display_winner()
+    
     def display_welcome(self):
-        self.display_welcome = "Welcome to R O B O T vs D I N O S A U R"
-        print(self.display_welcome)
+    # display a message
+        print("Welcome to Robot VS Dinosaur")
+    
     
     def battle_phase(self):
-        pass
+    # use a while loop to allow both sides to attack eachother until one has no health
+       
 
-class Robot(Battlefield):
-    def __init__(self):
-        self.choice = ""
-        self.health = int
-        super().__init__()
-
-    def battle_phase(self):
-        self.dinosaur -= 65
-        print(dinosaur.health - self.dinosaur)
-class Dinosaur(Battlefield):
-    def __init__(self):
-        self.choice = ""
-        self.health = int
-        super().__init__()
-
-    def battle_phase(self):
-        self.robot -= 45        
-        print(robot.health - self.robot)
+            
+    def display_winner(self):
+        # use if statement to check if dino has health, display dino as winner 
+        # else display robot as winner
+     
