@@ -2,8 +2,8 @@ from battlefield import Battlefield
 from robot import Robot
 from dinosaur import Dinosaur
 
-robot = Robot
-dinosaur = Dinosaur
+robot = Robot('Robot')
+dinosaur = Dinosaur("Dinosaur", 45)
 fight = Battlefield
 
 fight.run_game(fight)

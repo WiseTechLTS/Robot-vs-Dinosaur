@@ -8,5 +8,6 @@ class Dinosaur:
         self.attack_power = attack_power
 
     def attack(self, robot):
-
-        pass
+        robot.health -= self.attack_power
+        print("Dinosaur attack over")
+        return robot.health 
