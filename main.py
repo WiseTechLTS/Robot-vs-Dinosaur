@@ -29,5 +29,3 @@ fight.run_game(fight)
 # (5 points): As a developer, I want to choose from a list of 3 possible weapons before a robot makes an attack.
 #
 # (5 points): As a developer, I want to create Fleet and Herd classes, allowing for a list of 3 Robots to battle against a list of 3 Dinosaurs.
-
-
